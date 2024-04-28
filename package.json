@@ -1,0 +1,15 @@
+{
+  "name": "joshua-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/style.css --watch"
+  },
+  "author": "Joshua Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^12.1.2",
+    "tailwindcss": "^3.4.3"
+  }
+}

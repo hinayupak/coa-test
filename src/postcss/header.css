@@ -1,0 +1,87 @@
+header {
+    font-family: 'Bebas';
+
+    .header-top {
+        @apply text-dark-orange;
+        font-size: 14.77px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header-main {
+        .header-main-nav {
+            font-size: 13px;
+            font-family: 'Myriad Pro', sans-serif;
+
+            .nav-item {
+                min-width: 42px;
+
+                .nav-item-link {
+                    @apply transition-all ease-out duration-300;
+                    font-weight: 600;
+                    border-bottom: 4px solid transparent;
+    
+                    &:hover {
+                        font-weight: 900;
+                        border-bottom: 4px solid #ff6200;
+                    }
+                }
+
+                .active {
+                    font-weight: 550;
+                    border-bottom: 4px solid #ff6200;
+                }
+
+                .nav-submenu {
+                    border: 1px solid #000;
+                    font-family: 'Open Sans';
+                    font-size: 12px;
+                    width: max-content;
+
+                    .nav-submenu-item {
+                        .nav-submenu-item-link {
+                            min-width: 105px;
+                            padding: 3px 17px;
+                            display: block;
+
+                            &:hover {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    .nav-submenu-1 {
+                        @apply z-10;
+                    }
+
+                    .nav-submenu-2 {
+                        @apply z-20;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+.header-logo {
+    font-family: 'Bebas', sans-serif;
+    font-size: 25px;
+}
+
+#offcanvas-menu {
+    min-width: 300px;
+
+    .offcanvas-main-nav {
+        font-family: 'Myriad Pro', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+@media screen(lg) {
+    .header-logo {
+        font-size: 40.95px;
+    }
+}

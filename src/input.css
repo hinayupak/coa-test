@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* fonts */
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+@import url('https://fonts.cdnfonts.com/css/bebas');
+@import url('https://fonts.cdnfonts.com/css/ubuntu');
+
+/* my scss */
+@import "postcss/index.css"

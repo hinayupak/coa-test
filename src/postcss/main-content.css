@@ -1,0 +1,76 @@
+.main-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-orange;
+        font-family: 'Open Sans';
+    }
+
+    h1 {
+        font-size: 26.81px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .section-contact-form {
+        font-size: 14px;
+
+        input[type=text],
+        textarea {
+            border: 1px solid #ededed;
+            background-color: #f6f6f6;
+            color: #878787;
+            padding: 5px 10px;
+        }
+
+        .section-contact-form-submit {
+            font-family: 'Open Sans';
+            font-size: 13.05px;
+        }
+    }
+
+    .section-contact {
+        .divider {
+            height: 7px;
+            border: 0;
+            background-color: #525252;
+        }
+
+        .section-contact-text {
+            font-size: 14px;
+            font-family: 'Myriad Pro Regular';
+            font-weight: 300;
+        }
+
+        .social-icon {
+            background-color: #d0d0d0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 6px;
+            margin-right: 8px;
+
+            &:hover {
+                background-color: #363636;
+            }
+
+            svg {
+                max-width: 100%;
+                
+                path {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}
